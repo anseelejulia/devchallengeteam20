@@ -23,18 +23,28 @@ import './style.css';
         e.preventDefault();
         const currentIndex = button.id;
 
-        if(amountClicks > 2){
+      if(amountClicks > 0){
+        const $changetext = document.querySelector(`.subtitle`);
+        $changetext.classList.add(`noopacity`);
+      }
+
+       if(amountClicks >= 3){
+
           console.log('owch he is done with ur sht');
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src ="assets/gifs/eyeright.gif";
-        };
+          $gettingimgsrc.src ="assets/gifs/weglopen.gif";
+          const $changetext = document.querySelector(`.subtitle`);
+          $changetext.classList.remove(`noopacity`);
+          $changetext.textContent = "I'm done with you.";
 
-        if (currentIndex == 1) {
+          setTimeout(function(){location.href='assets/pages/end.html';}, 3000);
+
+        } else if (currentIndex == 1) {
           amountClicks++;
           console.log(amountClicks);
           console.log(`nummer 1 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src = 'assets/gifs/main.gif';
+          $gettingimgsrc.src = 'assets/gifs/eyeleftt.gif';
           setInterval(swapImage(1), interval);
 
         } else if (currentIndex == 2) {
@@ -44,7 +54,6 @@ import './style.css';
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
           $gettingimgsrc.src = 'assets/gifs/eyeright.gif';
           setInterval(swapImage(2), interval);
-
 
         } else if (currentIndex == 3) {
           amountClicks++;
@@ -93,14 +102,14 @@ import './style.css';
           console.log(amountClicks);
           console.log(`nummer 8 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src = 'assets/gifs/main.gif';
+          $gettingimgsrc.src = 'assets/gifs/armrechts1.gif';
 
         } else if (currentIndex == 9) {
           amountClicks++;
           console.log(amountClicks);
           console.log(`nummer 9 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src = 'assets/gifs/main.gif';
+          $gettingimgsrc.src = 'assets/gifs/voetlinks.gif';
 
         } else if (currentIndex == 10) {
           amountClicks++;
