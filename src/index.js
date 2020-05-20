@@ -17,12 +17,12 @@ import './style.css';
         if(currentIndex == 1){
           console.log(`nummer 1 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src = "voorbeeld1.gif";
+          $gettingimgsrc.src = "openeyes.png";
 
         } else if(currentIndex ==2){
           console.log(`nummer 2 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src= 'voorbeeld2.gif';
+          $gettingimgsrc.src= 'openeyes2.png';
 
 
         } else if(currentIndex ==3){
