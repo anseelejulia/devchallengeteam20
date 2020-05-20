@@ -19,8 +19,8 @@
 }
 
 .steveoriginal {
-  width: 10rem;
-  height: 20rem;
+  width: 21.4rem;
+  height: 40.3rem;
 }
 
 .floor {
@@ -31,6 +31,32 @@
   position: absolute;
   bottom: 0;
   z-index: -1;
+}
+
+.animationcontainer {
+  grid-area: steve;
+  display: flex;
+  justify-content: center;
+}
+
+.gridcontainer {
+  z-index: 1;
+  grid-area: steve;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.hidden {
+  display: none;
+}
+
+.maincontent {
+  margin: 0 auto;
+  width: 25rem;
+  height: 45rem;
+  display: grid;
+  grid-template-areas: 'steve';
 }
 
 @media only screen and (max-width: 700px) {
