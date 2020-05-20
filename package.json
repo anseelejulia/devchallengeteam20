@@ -35,5 +35,8 @@
     "last 2 versions",
     "> 1%",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "acorn": "^7.2.0"
+  }
 }
