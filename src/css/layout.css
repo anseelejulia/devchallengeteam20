@@ -5,11 +5,8 @@
 }
 
 .content {
-  max-width: 96rem;
-  display: grid;
   height: 100vh;
-  grid-template-rows: 4fr 1fr;
-
+  width: 100vw;
 }
 
 .title {
@@ -19,6 +16,21 @@
   color: #faff00;
   text-align: center;
   font-size: 3.5rem;
+}
+
+.steveoriginal {
+  width: 10rem;
+  height: 20rem;
+}
+
+.floor {
+  display: block;
+  width: 100vw;
+  height: 15rem;
+  background-color: #1637AD;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 700px) {
@@ -33,18 +45,4 @@
   .title {
     font-size: 2rem;
   }
-}
-
-.floor {
-  /* height: 10rem;
-  width: 100%;
-  background-color: #1637ad;
-
-  position: absolute;
-  bottom: 0; */
-  grid-row-start: 2;
-  grid-row-end: 3;
-  background-color: #1637ad ;
-  width: 100vw;
-
 }
