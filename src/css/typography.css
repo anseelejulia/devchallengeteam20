@@ -1,4 +1,4 @@
-body {
+/* body {
   font-size: var(--fontRegular);
   font-family: var(--font);
   font-weight: var(--fontWeightRegular);
@@ -27,5 +27,4 @@ h3, .h3-like {
   font-family: var(--font);
   font-weight: var(--fontWeightRegular);
   text-transform: uppercase;
-  margin: 0 0 .65rem; */
-}
+  margin: 0 0 .65rem;} */
