@@ -8,7 +8,10 @@
 }
 
 .title {
-  color: #faff00;
   font-family: Avenir, sans-serif;
   text-transform: uppercase;
+
+  color: #faff00;
+  text-align: center;
+  font-size: 5.5rem;
 }
