@@ -38,6 +38,7 @@
   ],
   "dependencies": {
     "acorn": "^7.2.0",
+    "heroku": "^7.41.1",
     "kind-of": "^6.0.3",
     "serialize-javascript": "^3.0.0"
   }
