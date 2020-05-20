@@ -112,7 +112,7 @@ import './style.css';
     if(amountClicks > 3){
       console.log('owch he is done with ur sht');
       const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-      $gettingimgsrc.src ="assets/gifs/eyeright";
+      $gettingimgsrc.src ="assets/gifs/eyeright.gif";
     };
   };
 
