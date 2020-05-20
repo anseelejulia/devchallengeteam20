@@ -1,5 +1,6 @@
 .container {
-  background-color: blue;
+  background-color: #0047ff;
+  display: flex;
 }
 
 .content {
@@ -14,4 +15,28 @@
   color: #faff00;
   text-align: center;
   font-size: 5.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .title {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+.floor {
+  height: 10rem;
+  width: 100%;
+  background-color: #1637ad;
+
+  position: absolute;
+  bottom: 0;
+
 }
