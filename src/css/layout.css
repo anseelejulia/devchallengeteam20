@@ -1,11 +1,11 @@
 .container {
   background-color: #0047ff;
   display: flex;
+  margin: 0 auto;
 }
 
 .content {
   max-width: 96rem;
-  margin: 0 auto;
   display: grid;
   height: 100vh;
   grid-template-rows: 4fr 1fr;
