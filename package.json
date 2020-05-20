@@ -28,7 +28,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development",
     "prod": "rm -rf dist/ && webpack --mode production"
   },
   "browserslist": [
