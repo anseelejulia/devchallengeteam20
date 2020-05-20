@@ -22,6 +22,12 @@ import './style.css';
       button.addEventListener('click', e => {
         e.preventDefault();
         const currentIndex = button.id;
+        
+        if(amountClicks > 3){
+          console.log('owch he is done with ur sht');
+          const $gettingimgsrc = document.querySelector(`.steveoriginal`);
+          $gettingimgsrc.src ="assets/gifs/eyeright.gif";
+        };
 
         if (currentIndex == 1) {
           amountClicks++;
@@ -108,12 +114,6 @@ import './style.css';
         }
       });
     });
-
-    if(amountClicks > 3){
-      console.log('owch he is done with ur sht');
-      const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-      $gettingimgsrc.src ="assets/gifs/eyeright.gif";
-    };
   };
 
   init();
