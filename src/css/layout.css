@@ -6,6 +6,7 @@ body {
   background-color: #0047ff;
   display: flex;
   margin: 0 auto;
+  min-width: 96rem;
 }
 
 .content {
@@ -30,7 +31,7 @@ body {
 }
 
 .steveoriginal {
-  width: 100vw;
+  width: 70rem;
   height: 40.3rem;
   transform: scale(2);
   z-index: -1;
@@ -48,6 +49,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  width: 30rem;
+  margin: 0 auto;
+
 }
 
 .hidden {

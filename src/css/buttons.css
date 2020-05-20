@@ -3,77 +3,80 @@
 }
 
 .grid__button1 {
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-left: 11.2rem;
-  margin-top: 5.2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-left: 13rem;
+  margin-top: 8.5rem;
 }
 
 .grid__button2 {
-  width: 1.5rem;
-  height: 1.5rem;
-  margin-left: .8rem;
-  margin-top: 5.1rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-left: .3rem;
+  margin-top: 8.5rem;
 }
 
 .grid__button3 {
-  width: 1.2rem;
-  height: 5.5rem;
+  width: 1.6rem;
+  height: 6rem;
   transform: rotate(45deg);
-  margin-left: 6.5rem;
-  margin-top: -2rem;
+
+  margin-left: 10.5rem;
+  margin-top: -1.5rem;
 }
 
 .grid__button4 {
   transform: rotate(-45deg);
-  width: 1.2rem;
-  height: 5.5rem;
-  margin-left: 4.8rem;
-  margin-top: -2rem;
+  width: 1.6rem;
+  height: 6rem;
+  margin-left: 3.7rem;
+  margin-top: -1.5rem;
 }
 
 .grid__button5 {
-  width: 1.2rem;
-  height: 5.5rem;
-  transform: rotate(36deg);
-  margin-left: 6rem;
-  margin-top: -9rem;
+  width: 1.6rem;
+  height: 6rem;
+  transform: rotate(45deg);
+  margin-left: 11.2rem;
+  margin-top: -14rem;
 }
 
 .grid__button6 {
   transform: rotate(-45deg);
-  width: 1.2rem;
-  height: 5.5rem;
-  margin-left: 4.8rem;
-  margin-top: -2rem;
+  width: 1.6rem;
+  height: 6rem;
+
+  margin-left: 2.8rem;
+  margin-top: -14rem;
 }
 
 .grid__button7 {
-  transform: rotate(45deg);
-  width: 1.2rem;
-  height: 5.5rem;
-  margin-left: 6rem;
-  margin-top: -2rem;
+  transform: rotate(36deg);
+  width: 1.6rem;
+  height: 6rem;
+
+  margin-left: 12rem;
+  margin-top: -27rem;
 }
 
 .grid__button8 {
-  transform: rotate(-45deg);
-  width: 1.2rem;
-  height: 5.5rem;
-  margin-left: 6rem;
-  margin-top: -2rem;
+  transform: rotate(-36deg);
+  width: 1.6rem;
+  height: 6rem;
+  margin-left: 2rem;
+  margin-top: -27rem;
 }
 
 .grid__button9 {
-  width: 1.2rem;
-  height: 5.5rem;
-  margin-left: 1rem;
-  margin-top: -2rem;
+  width: 1.6rem;
+  height: 6rem;
+  margin-left: 13rem;
+  margin-top: -19rem;
 }
 
 .grid__button10 {
-  width: 1.2rem;
-  height: 5.5rem;
-  margin-left: 20rem;
-  margin-top: -2rem;
+  width: 1.6rem;
+  height: 6rem;
+  margin-left: 1rem;
+  margin-top: -19rem;
 }
