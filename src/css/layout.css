@@ -18,6 +18,13 @@
   font-size: 3.5rem;
 }
 
+.subtitle {
+  font-family: Avenir, sans-serif;
+  color: #fffb00;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 .steveoriginal {
   width: 100vw;
   height: 40.3rem;
