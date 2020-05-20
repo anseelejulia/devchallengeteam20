@@ -1,0 +1,22 @@
+.spaced {
+  padding: var(--spacerBig);
+}
+
+.hide {
+  display: none;
+}
+
+.highlight {
+  color: var(--colorMain);
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--fontSmall);
+  color: var(--colorLightest);
+  padding: var(--spacerSmall) var(--spacerRegular);
+  background: var(--colorSecondary);
+  border-radius: 2rem;
+  border: 0;
+}
