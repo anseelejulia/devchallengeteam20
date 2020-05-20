@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .container {
   background-color: #0047ff;
   display: flex;
@@ -28,7 +32,7 @@
 .steveoriginal {
   width: 100vw;
   height: 40.3rem;
-  transform: scale(1.5);
+  transform: scale(2);
   z-index: -1;
 }
 
