@@ -69,7 +69,7 @@ import './style.css';
           console.log(amountClicks);
           console.log(`nummer 4 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src = 'assets/gifs/main.gif';
+          $gettingimgsrc.src = 'assets/gifs/armrechtsvanboven.gif';
           setInterval(swapImage(4), interval);
 
 
@@ -87,7 +87,7 @@ import './style.css';
           console.log(amountClicks);
           console.log(`nummer 6 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src = 'assets/gifs/main.gif';
+          $gettingimgsrc.src = 'assets/gifs/armrechts2.gif';
           setInterval(swapImage(6), interval);
 
         } else if (currentIndex == 7) {
