@@ -39,7 +39,7 @@ module.exports = (env, {mode}) => {
           ]
         },
         {
-          test: /\.(jpe?g|png|svg|webp)$/,
+          test: /\.(jpe?g|png|svg|webp|gif)$/,
           use: {
             loader: 'url-loader',
             options: {
@@ -48,6 +48,10 @@ module.exports = (env, {mode}) => {
               name: '[path][name].[ext]'
             }
           }
+        },
+        {
+          test: /\.mp4$/,
+          use: 'file-loader?name=assets/mp4/[name].[ext]',
         },
         {
           test: /\.css$/,
