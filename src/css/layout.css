@@ -1,9 +1,14 @@
-/* .layout {
+.container {
+  background-color: blue;
 }
 
-.container {
-  max-width: 70rem;
+.content {
+  max-width: 96rem;
   margin: 0 auto;
-  padding-left: var(--spacerBig);
-  padding-right: var(--spacerBig);
-} */
+}
+
+.title {
+  color: #faff00;
+  font-family: Avenir, sans-serif;
+  text-transform: uppercase;
+}
