@@ -17,36 +17,46 @@ import './style.css';
         if(currentIndex == 1){
           console.log(`nummer 1 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src = "assets/img/openeyes.png";
+          $gettingimgsrc.src = "assets/img/eye.gif";
 
         } else if(currentIndex ==2){
           console.log(`nummer 2 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src= 'assets/img/openeyes2.png';
+          $gettingimgsrc.src= 'assets/img/eye.gif';
 
 
         } else if(currentIndex ==3){
           console.log(`nummer 3 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src= 'sdqsd';
+          $gettingimgsrc.src= 'assets/img/l1.gif';
 
 
         } else if(currentIndex ==4){
           console.log(`nummer 4 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src= 'fezfze';
+          $gettingimgsrc.src= 'assets/img/r1.gif';
 
         
         } else if(currentIndex ==5){
           console.log(`nummer 5 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src= 'fzef';
+          $gettingimgsrc.src= 'assets/img/l2.gif';
 
         
         } else if(currentIndex == 6){
           console.log(`nummer 6 is aangeduid`);
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
-          $gettingimgsrc.src= 'zefzef';
+          $gettingimgsrc.src= 'assets/img/r2.gif';
+
+        } else if(currentIndex == 7){
+          console.log(`nummer 6 is aangeduid`);
+          const $gettingimgsrc = document.querySelector(`.steveoriginal`);
+          $gettingimgsrc.src= 'assets/img/l3.gif';
+
+        } else if(currentIndex == 8){
+          console.log(`nummer 6 is aangeduid`);
+          const $gettingimgsrc = document.querySelector(`.steveoriginal`);
+          $gettingimgsrc.src= 'assets/img/r3.gif';
 
         } else {
           console.log(`niets moet gebeuren`);

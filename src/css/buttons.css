@@ -5,20 +5,59 @@
 .grid__button1 {
   width: 3rem;
   height: 3rem;
-  margin-left: 10rem;
-  margin-top: 6rem;
+  margin-left: 11.2rem;
+  margin-top: 5.2rem;
+}
+
+.grid__button2 {
+  width: 3rem;
+  height: 3rem;
+  margin-left: .8rem;
+  margin-top: 5.1rem;
 }
 
 .grid__button3 {
+  width: 2.5rem;
+  height: 13.5rem;
+  transform: rotate(45deg);
+  margin-left: 6.5rem;
+  margin-top: -2rem;
+}
+
+.grid__button4 {
+  transform: rotate(-45deg);
+  width: 2.5rem;
+  height: 10.5rem;
+  margin-left: 4.8rem;
+  margin-top: -2rem;
+}
+
+.grid__button5 {
+  width: 2.5rem;
+  height: 14.5rem;
+  transform: rotate(36deg);
+  margin-left: 6rem;
+  margin-top: -9rem;
+}
+
+.grid__button6 {
+  transform: rotate(-45deg);
+  width: 2.5rem;
+  height: 10.5rem;
+  margin-left: 4.8rem;
+  margin-top: -2rem;
+}
+
+.grid__button7 {
   width: 5rem;
   height: 16rem;
   margin-left: 6rem;
   margin-top: -2rem;
 }
 
-.grid__button5 {
-  width: 2.3rem;
-  height: 10.5rem;
-  margin-left: 10.4rem;
-  margin-top: -.2rem;
+.grid__button8 {
+  width: 5rem;
+  height: 16rem;
+  margin-left: 6rem;
+  margin-top: -2rem;
 }
