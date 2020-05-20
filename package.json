@@ -28,7 +28,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development",
     "prod": "rm -rf dist/ && webpack --mode production"
   },
   "browserslist": [
@@ -38,6 +38,7 @@
   ],
   "dependencies": {
     "acorn": "^7.2.0",
+    "heroku": "^7.41.1",
     "kind-of": "^6.0.3",
     "serialize-javascript": "^3.0.0"
   }
