@@ -50,6 +50,10 @@ module.exports = (env, {mode}) => {
           }
         },
         {
+          test: /\.mp4$/,
+          use: 'file-loader?name=assets/mp4/[name].[ext]',
+        },
+        {
           test: /\.css$/,
           use: [
             mode === 'production'
