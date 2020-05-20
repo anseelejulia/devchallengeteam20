@@ -48,6 +48,16 @@ import './style.css';
           const $gettingimgsrc = document.querySelector(`.steveoriginal`);
           $gettingimgsrc.src= 'zefzef';
 
+        } else if(currentIndex == 7){
+          console.log(`nummer 6 is aangeduid`);
+          const $gettingimgsrc = document.querySelector(`.steveoriginal`);
+          $gettingimgsrc.src= 'zefzef';
+
+        } else if(currentIndex == 8){
+          console.log(`nummer 6 is aangeduid`);
+          const $gettingimgsrc = document.querySelector(`.steveoriginal`);
+          $gettingimgsrc.src= 'zefzef';
+
         } else {
           console.log(`niets moet gebeuren`);
         }
